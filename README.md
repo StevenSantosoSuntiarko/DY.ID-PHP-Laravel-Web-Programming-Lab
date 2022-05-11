@@ -1,3 +1,24 @@
+DY.ID-PHP-Laravel-Web-Programming-Lab
+
+DY.ID is an University Project in Web Programming which is about a web-based application for e-commerce application using PHP Laravel Framework and MVC (Model, View, Controller) Design Pattern.
+
+
+Requirement (PHP 8 - MySQL - Composer)
+
+Things to keep in mind:
+1) .env need to be made by copy paste .env.example
+2) in .env change DB_DATABASE to your database name in MySQL (localhost/phpmyadmin)
+3) css file not included
+4) image file not included
+
+How to Start in terminal:
+1) composer install
+2) composer global require
+3) php artisan migrate:fresh
+4) php artisan db:seed
+5) php artisan serve
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
